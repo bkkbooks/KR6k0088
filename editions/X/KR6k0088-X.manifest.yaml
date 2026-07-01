@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6k0088/X/v1
+canonical_location: https://kanripo.org/bkk/KR6k0088/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 梵網菩薩戒經義疏發隱問辯
+  identifiers:
+    krp: KR6k0088
+    cbeta: X38n0681
+    cbeta_old_id: X38n0681
+    authorityid: CA0000999
+    json_key: X0681
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X38/X38n0681.xml
+    old_id: X38n0681
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0088_000-X.yaml, hash: 'sha256:b1ece245b3614f0d11f8310394db63dd3ee14fd515bb1fde9999c27320005d44'}
+  - {seq: 1, filename: KR6k0088_001-X.yaml, hash: 'sha256:0ab2bbe10278154d261a566b5f1d1243a429539d898be08fe40ac9a5099072ae'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0088_000-X.markers.yaml, hash: 'sha256:69621daeeb39f847b58d693cc894dfc3c81a690e050797994703b73db812cfb1'}
+  - {seq: 1, role: markers, filename: assets/KR6k0088_001-X.markers.yaml, hash: 'sha256:87dfa49bd7de9671e3e2f22f9140632096dfb34840a037b3c72046fcf27d70de'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0088_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 10396
+  label: 菩薩戒問辯
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0088_X_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0088_X_001-mulu-2
+    span:
+    - body
+    - 121
+    - 121
+  label: 前問答
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0088_X_001-mulu-3
+    span:
+    - body
+    - 3846
+    - 3846
+  label: 僧俗雜問
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0088_X_001-mulu-4
+    span:
+    - body
+    - 9661
+    - 9661
+  label: 附事義
+  type: mulu
+  level: 1
+hash: sha256:2704669ade9b3012d8f52a868b96c6f50eb54ca9ba240bfcecd63742485bc2f4
